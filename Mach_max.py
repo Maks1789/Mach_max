@@ -27,7 +27,7 @@ print(f" Файлы для проверки совпадений {all_find_file_
 
 
 
-# загружает файлы ексель и открывает рабочую страницк
+# загружает файлы ексель и открывает рабочую страницу
 def spisok(files):
     a = openpyxl.load_workbook(f"{files}")
     a = a.active.values
